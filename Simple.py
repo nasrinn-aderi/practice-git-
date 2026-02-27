@@ -1,6 +1,3 @@
-
-
-
 import numpy as np
 
 for number in range(1,np.random.randint(1,100)):
