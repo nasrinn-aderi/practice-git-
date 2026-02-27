@@ -1,8 +1,11 @@
 
 
-number = 2
-for i in range(1,10):
-    if i % number == 0:
-        print(i, "is even")
+
+import numpy as np
+
+for number in range(1,np.random.randint(1,100)):
+    number = number**2
+    if number % 2 ==0:
+        print(number , "is even")
     else:
-        print(i, "is odd")
+        print(number, "is odd")
